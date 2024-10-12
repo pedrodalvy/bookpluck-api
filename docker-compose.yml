@@ -1,0 +1,17 @@
+services:
+  app:
+    container_name: app
+    build:
+      context: .
+    environment:
+      FLASK_ENV: development
+      FLASK_DEBUG: 1
+    ports:
+      - "5000:5000"
+    develop:
+      watch:
+        - action: sync
+          path: ./app
+          target: /app/app
+        - action: rebuild
+          path: poetry.lock
