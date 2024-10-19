@@ -1,6 +1,9 @@
 # Bookpluck API
+[![codecov][codecov-image]][codecov-url]
+[![Quality Gate Status][sonar-image]][sonar-url]
 
 ## About the Project
+
 
 Bookpluck API is a Library Management System developed purely for educational purposes. This RESTful API, built with Flask and SQLAlchemy, simulates the operations of a library, including managing books, authors, users, and loans.
 
@@ -56,3 +59,8 @@ poetry run pytest
 ## Educational Purpose
 
 The Bookpluck API is designed to provide hands-on experience in building RESTful APIs. Users are encouraged to explore the code, experiment with changes, and use the project as a base for their own learning and experimentation.
+
+[codecov-image]: https://codecov.io/gh/pedrodalvy/bookpluck-api/graph/badge.svg?token=YI9cQLmJQb
+[codecov-url]: https://codecov.io/gh/pedrodalvy/bookpluck-api
+[sonar-image]: https://sonarcloud.io/api/project_badges/measure?project=pedrodalvy_bookpluck-api&metric=alert_status
+[sonar-url]: https://sonarcloud.io/summary/new_code?id=pedrodalvy_bookpluck-api
