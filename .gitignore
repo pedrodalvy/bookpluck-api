@@ -29,3 +29,6 @@ poetry.lock
 
 # Environment variables
 .env
+.coverage
+htmlcov
+coverage.lcov
