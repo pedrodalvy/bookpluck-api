@@ -1,6 +1,7 @@
 from flask import Flask
 from .api.hello import hello_bp
 
+
 def create_app():
     app = Flask(__name__)
 
